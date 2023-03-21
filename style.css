@@ -53,6 +53,15 @@ body{
     justify-content: center;
     margin: 20px;
 }
+.main_container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: min-content;
+    background-color: #BFC8AD;
+    width: 80%;
+}
 .profile{
     display: flex;
     justify-content: space-around;
@@ -60,11 +69,10 @@ body{
     height: max-content;
     background-color: #BFC8AD;
     flex-flow: row wrap;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
-.profile_image{
-    /* display: block; */
-    
-}
+
 .image{
     width: 350px;
     height: auto;
@@ -114,7 +122,7 @@ body{
 .facts{
     display: flex;
     justify-content: center;
-    width:max-content;
+    width:fit-content;
     height: max-content;
     background-color: #BFC8AD;
     flex-direction: column;
