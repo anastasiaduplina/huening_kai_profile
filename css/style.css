@@ -170,7 +170,7 @@ body{
     margin-top: 5px;
     margin-bottom: 5px;
 }
-/* .facts_container{
+.facts_container{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -178,7 +178,7 @@ body{
     flex-direction: column;
     box-shadow: 7px 7px  rgb(198, 198, 198);
     margin-bottom: 20px;
-} */
+}
 .facts_family{
     background-position: center;
     background-position-y:top;
