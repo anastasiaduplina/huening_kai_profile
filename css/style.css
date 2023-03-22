@@ -282,12 +282,9 @@ body{
     .text_1{
         margin-top: 5px;
         font-size: x-small;
-        color: black;
         font-family:sans-serif;
     }
     .text{
-        color: black;
-        font-family:sans-serif;
         font-size: small;
     }
     .video{
