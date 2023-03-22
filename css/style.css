@@ -1,3 +1,7 @@
+::selection {
+    background: #545775; 
+    color: #fff; 
+   }
 body{
     margin: 0;
     padding: 0;
@@ -52,15 +56,12 @@ body{
 .main{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    padding: 20px;
     flex-direction: column;
     align-items: center;
+    
 }
-/* .main_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
+
 
 .profile{
     display: flex;
@@ -74,7 +75,6 @@ body{
     
     
 }
-
 .image{
     width: 350px;
     height: auto;
@@ -127,16 +127,22 @@ body{
 .facts{
     display: flex;
     justify-content: center;
-    width:fit-content;
+    width:100%;
     height: max-content;
-    background-color: #BFC8AD;
+    /* background-color: #BFC8AD; */
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-top:2px solid #545775;
+    border-bottom:2px solid #545775;
+
 }
 .facts_text{
     margin: 10px;
     max-width: 800px;
+    background-color: rgba(0,0,0, 0.2);
+    color: white;
 }
 .videocontainer{
     display:flex;
@@ -163,6 +169,40 @@ body{
 .text_video{
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.facts_container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    box-shadow: 7px 7px  rgb(198, 198, 198);
+    margin-bottom: 20px;
+}
+.facts_family{
+    background-position: center;
+    background-position-y:top;
+    background-image: url(../image/kai`s\ family.png);
+    min-height: 350px;
+    background-color: #545775;
+}
+.facts_education{
+    background-image: url(../image/kai\ schoolform.png);
+    min-height: 250px;
+    background-color: #718F94;
+    background-size: contain;
+    background-position-x: 90%;
+    justify-content: center;
+}
+.facts_carier{
+    background-position: center;
+    background-position-y:top;
+    background-image: url(../image/txt.png);
+    min-height: 350px;
+    background-color: #90B494;
+}
+.facts_text-education{
+    width: 70%;
 }
 
 @media (max-width: 860px) { 
@@ -204,10 +244,13 @@ body{
     .main{
         display: flex;
         justify-content: center;
-        width: 100%;
-        margin: 0;
+        /* width: 100%; */
+        /* padding: 0;
+        margin: 0; */
+        margin: auto;
+        padding: auto;
         flex-direction: column;
-    align-items: center;
+        align-items: center;
     }
     .profile{
         display: flex;
@@ -245,5 +288,12 @@ body{
         color: black;
         font-family:sans-serif;
         font-size: small;
+    }
+    .video{
+        max-width: 100%;
+        border-radius: 5px;
+    }
+    .footer_icon{
+        min-width: 10px;
     }
  }
