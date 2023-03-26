@@ -17,6 +17,9 @@
 .link{
     text-decoration: none;
 }
+.link_active{
+    text-decoration: underline;
+}
 .text_l{
     font-size: large;
 }
@@ -82,7 +85,7 @@
     background-size: contain;
     margin: 2px;
 }
-.main-page_name{
+.main-page__name{
     align-self: center;
     width: fit-content;
     height: 100%;
