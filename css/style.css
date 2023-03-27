@@ -192,6 +192,7 @@
     justify-content: center;
     max-width: 600px;
 }
+
 .videocontainer{
     display:flex;
     flex-flow: row wrap;
