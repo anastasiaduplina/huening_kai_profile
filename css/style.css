@@ -20,6 +20,9 @@
 .link_active{
     text-decoration: underline;
 }
+.link:hover{
+    text-decoration: underline;
+}
 .text_l{
     font-size: large;
 }
