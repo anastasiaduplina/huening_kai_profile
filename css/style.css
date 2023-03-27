@@ -156,10 +156,9 @@
 .facts__container_family{
     background-position: center;
     background-position-y:top;
-    background-image: -webkit-image-set(url(../image/kai`s\ family.png) type("image/png"),
-    url(../image/kai_s-family.webp) type("image/webp"));
-    background-image: image-set(url(../image/kai`s\ family.png) type(image/png),
-    url(../image/kai_s-family.webp) type(image/webp));
+    background-image: url(../image/kai`s\ family.png);
+    background-image: image-set("../image/kai`s\ family.png" type("image/png"), 
+    "../image/kai_s-family.webp" type("image/webp"));
     min-height: 350px;
     background-color: #545775;
 }
