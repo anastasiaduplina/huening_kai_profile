@@ -78,7 +78,7 @@
     width: fit-content;
 }
 .main-page__icon{
-    background-image: url("../image/icon.jpg");
+    background-image: url(../image/icon.jpg);
     background-repeat: no-repeat;
     min-width: 50px;
     height: auto;
@@ -156,14 +156,14 @@
 .facts__container_family{
     background-position: center;
     background-position-y:top;
-    background-image: url(../image/kai`s\ family.png);
-    background-image: image-set("../image/kai`s\ family.png" type("image/png"), 
-    "../image/kai_s-family.webp" type("image/webp"));
+    background-image: url(../image/kai_s-family.webp);
+    /* background-image: image-set("../image/kai`s\ family.png" type("image/png"), 
+    "../image/kai_s-family.webp" type("image/webp")); */
     min-height: 350px;
     background-color: #545775;
 }
 .facts__container_education{
-    background-image: url(../image/kai\ schoolform.png);
+    background-image: url(../image/kai-schoolform.webp);
     min-height: 250px;
     background-color: #718F94;
     background-size: contain;
@@ -174,7 +174,7 @@
 .facts__container_carier{
     background-position: center;
     background-position-y:top;
-    background-image: url(../image/txt.jpg);
+    background-image: url(../image/txt.webp);
     min-height: 350px;
     background-color: #90B494;
 }
