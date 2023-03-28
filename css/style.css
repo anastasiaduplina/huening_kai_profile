@@ -44,15 +44,12 @@
 .margin_bottom_0{
     margin-bottom: 0;
 }
-.text_xl{
-    font-size: x-large;
-}
 .text_xxl{
     font-size: xx-large;
 }
 .text_shadow{
     max-width: 800px;
-    background-color: rgba(0,0,0, 0.2);
+    background-color: rgba(0,0,0, 0.5);
     color: white;
 }
 .text_margin{
@@ -62,7 +59,7 @@
 .text_width_70{
     width: 70%;
 }
-.text_width_50{
+.text_width_90{
     width: 90%;
 
 }
